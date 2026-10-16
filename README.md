@@ -1,8 +1,77 @@
-# Spring Boot Backend Developer Roadmap
+# Spring Boot Guide
 
-A practical, self-paced path from Java fundamentals to building, testing, securing, and deploying Spring Boot applications. Learn each concept by applying it in progressively more realistic projects.
+A structured, self-paced learning path and reference collection for backend developers moving from Java fundamentals to production-minded Spring Boot applications.
 
-> **Version note:** Java and Spring release support changes over time. Choose a supported Java version for the Spring Boot release you use, and check the official documentation before starting a new project.
+## Overview
+
+This repository is a **documentation-only** guide: there is no application code, build file, or runtime to install. It organizes a multi-phase roadmap, curated external resources, project ideas, interview preparation links, and downloadable cheatsheets so you can study Spring Boot without hunting across scattered bookmarks.
+
+The path emphasizes learning by building—each phase suggests practice work, and companion documents list projects by difficulty and quality standards aligned with real backend engineering.
+
+## Features
+
+- Phased roadmap from Java foundations through advanced topics (messaging, microservices, observability).
+- Progress checklist to track topics as you practice them.
+- [Project ideas](Project%20Roadmap%20and%20Projects.md) grouped by difficulty with extension challenges.
+- [Learning resources](Recommended%20Learning%20Resources.md) with links to official documentation and optional courses.
+- [Interview preparation](Interview%20Preparation.md) curated question collections and a practice workflow.
+- [Cheatsheets](Cheatsheets.md) for Git, SQL, Docker, Maven, Spring annotations, and related references.
+- Visual roadmap graphic (embedded below and in [Downloadable Springboot roadmap.md](Downloadable%20Springboot%20roadmap.md)).
+
+## Tech stack
+
+| Area | Details |
+| --- | --- |
+| Content format | Markdown (`.md`) |
+| Version control | Git |
+| Hosting | GitHub (static documentation) |
+
+There is no Java, Spring Boot, Maven, or Gradle project in this repository. Apply the roadmap in your own practice repositories.
+
+## Prerequisites
+
+- A web browser to read the guides on GitHub or locally.
+- [Git](https://git-scm.com/downloads) if you want to clone or contribute.
+- For **following** the roadmap (outside this repo): a JDK supported by your chosen Spring Boot version, Maven or Gradle, and optionally Docker—see the phase descriptions below.
+
+> **Version note:** Java and Spring release support changes over time. Choose a supported Java version for the Spring Boot release you use, and check the [Spring Boot reference documentation](https://docs.spring.io/spring-boot/reference/) before starting a new project.
+
+## Getting started
+
+```bash
+git clone https://github.com/vonmiller1/spring-boot-guide.git
+cd spring-boot-guide
+```
+
+Open `README.md` in your editor or view the repository on GitHub. No environment variables or secrets are required to use this guide.
+
+## Running locally
+
+This repository does not run as a service. After cloning, browse the Markdown files directly or use any Markdown preview in your IDE. External PDF and image assets linked from [Cheatsheets.md](Cheatsheets.md) are hosted on GitHub user attachments and open in the browser.
+
+## Testing
+
+There are no automated tests in this repository. When you build practice projects elsewhere, follow Phase 7 in the roadmap (JUnit 5, Mockito, MockMvc, integration tests, Testcontainers as appropriate).
+
+## Project structure
+
+| Path | Description |
+| --- | --- |
+| `README.md` | Main roadmap, checklist, and entry point |
+| `Project Roadmap and Projects.md` | Hands-on project ideas by difficulty |
+| `Recommended Learning Resources.md` | Documentation, tutorials, and optional courses |
+| `Interview Preparation.md` | External interview question collections |
+| `Cheatsheets.md` | Quick references and PDF links |
+| `Downloadable Springboot roadmap.md` | Standalone roadmap image |
+| `LICENSE` | MIT License |
+
+## Configuration
+
+No configuration files or environment variables apply to this documentation repository.
+
+## Deployment
+
+The canonical copy lives on GitHub at [vonmiller1/spring-boot-guide](https://github.com/vonmiller1/spring-boot-guide). You may fork the repository for personal notes; there is no CI/CD or container deployment defined here.
 
 ## Who this guide is for
 
@@ -15,8 +84,8 @@ A practical, self-paced path from Java fundamentals to building, testing, securi
 
 1. Review the phases below and begin with any prerequisites you have not yet covered.
 2. Work through topics in order; build the suggested project before moving on.
-3. Use the [project ideas](<Project Roadmap and Projects.md>) to extend your practice.
-4. Keep a progress checklist and revisit topics by applying them to a project.
+3. Use the [project ideas](Project%20Roadmap%20and%20Projects.md) to extend your practice.
+4. Keep the progress checklist and revisit topics by applying them to a project.
 
 This is a learning guide, not a required certification path. You can use Maven or Gradle and choose PostgreSQL or MySQL; focus on understanding the concepts rather than completing every optional topic.
 
@@ -123,11 +192,11 @@ Start small and add these practices as they become relevant; not every exercise 
 
 | Guide | Use it for |
 | --- | --- |
-| [Project ideas](<Project Roadmap and Projects.md>) | Hands-on exercises organized by difficulty |
-| [Learning resources](<Recommended Learning Resources.md>) | Official documentation, tutorials, and books |
-| [Interview preparation](<Interview Preparation.md>) | Practice question collections by topic |
-| [Cheatsheets](<Cheatsheets.md>) | Quick references for common developer tools |
-| [Downloadable roadmap](<Downloadable Springboot roadmap.md>) | Roadmap graphic |
+| [Project ideas](Project%20Roadmap%20and%20Projects.md) | Hands-on exercises organized by difficulty |
+| [Learning resources](Recommended%20Learning%20Resources.md) | Official documentation, tutorials, and books |
+| [Interview preparation](Interview%20Preparation.md) | Practice question collections by topic |
+| [Cheatsheets](Cheatsheets.md) | Quick references for common developer tools |
+| [Downloadable roadmap](Downloadable%20Springboot%20roadmap.md) | Roadmap graphic |
 
 ## Progress checklist
 
@@ -147,6 +216,18 @@ Start small and add these practices as they become relevant; not every exercise 
 
 ## Roadmap graphic
 
-![Spring Boot roadmap](https://github.com/user-attachments/assets/f79841ce-ab40-404b-b88b-e46131a3c0eb)
+![Spring Boot backend developer roadmap](https://github.com/user-attachments/assets/f79841ce-ab40-404b-b88b-e46131a3c0eb)
 
 The roadmap is a guide, not a substitute for the official documentation. Thanks to Amigoscode for the original roadmap inspiration, and to VenkatMal Reddy Desai for the introduction to the Java developer environment.
+
+## Contributing
+
+1. Fork the repository and create a feature branch from `main`.
+2. Keep edits focused; prefer updating links and clarity over large rewrites unless accuracy requires it.
+3. Use clear, imperative commit messages (for example, `docs(readme): clarify Phase 5 persistence topics`).
+4. Open a pull request describing what you changed and why.
+5. Do not commit secrets, API keys, or personal data in examples.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
