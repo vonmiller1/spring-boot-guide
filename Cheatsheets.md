@@ -39,6 +39,6 @@
 ---
 
 ## Bonus
-* The Linux Command Line Free Book for those who are really interested in Linux
+* Get The Linux Command Line Free Book for free (Optional but recommended)
 
 [The Linux Command Line Book.pdf](https://github.com/user-attachments/files/29926209/The.Linux.Command.Line.Book.pdf)
