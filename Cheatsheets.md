@@ -1,44 +1,41 @@
-# 1. Git Quick Reference Guide
-[Git-CheatSheet.pdf](https://github.com/user-attachments/files/29925778/Git-CheatSheet.pdf)
+# Developer Cheatsheets
 
----
+Quick references for tools and concepts used throughout the [Spring Boot learning roadmap](README.md). PDFs are hosted on GitHub; prefer official documentation when behavior or syntax differs by version.
 
-# 2. SQL (ANSI) Quick Reference Guide by Oracle
-[sql-language-quick-reference.pdf](https://github.com/user-attachments/files/29925793/sql-language-quick-reference.pdf)
+## Git
 
----
+- [Git Cheat Sheet (PDF)](https://github.com/user-attachments/files/29925778/Git-CheatSheet.pdf)
 
-# 3. Docker Quick Reference Guide (CLI)
-[docker_cheatsheet.pdf](https://github.com/user-attachments/files/29925816/docker_cheatsheet.pdf)
+## SQL
 
----
+- [SQL Language Quick Reference — Oracle (PDF)](https://github.com/user-attachments/files/29925793/sql-language-quick-reference.pdf)
 
-# 4. Apache Maven Quick Reference Guide 
-[Official Cheatsheet by Apache Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+## Docker
 
----
+- [Docker CLI Cheatsheet (PDF)](https://github.com/user-attachments/files/29925816/docker_cheatsheet.pdf)
 
-# 5. Important Spring Boot Annotations 
-<img width="1059" height="2080" alt="1755750898855" src="https://github.com/user-attachments/assets/9f5c83a6-ebef-4933-95d4-044fcb546839" />
+## Maven
 
----
+- [Maven in Five Minutes — Apache Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-# 6. JPA Annotations
-[Medium Article of all JPA Annotations](https://andreibaptista.medium.com/jpa-annotations-quick-overview-b739469ff4b0)
+## Spring Boot annotations
 
----
+![Spring Boot annotations reference diagram](https://github.com/user-attachments/assets/9f5c83a6-ebef-4933-95d4-044fcb546839)
 
-# 7. HTTP Status Codes
-[MDN Web Docs for HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
+Cross-check annotation behavior in the [Spring Framework reference](https://docs.spring.io/spring-framework/reference/) for your Spring Boot version.
 
----
+## JPA
 
-# 8. Linux Commands
-[Linux Cheatsheet with definitions and use-cases](https://www.digitalocean.com/community/tutorials/linux-commands)
+- [JPA annotations overview — Medium (Andrei Baptista)](https://andreibaptista.medium.com/jpa-annotations-quick-overview-b739469ff4b0)
 
----
+## HTTP
+
+- [HTTP status codes — MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status)
+
+## Linux
+
+- [Linux commands — DigitalOcean community tutorial](https://www.digitalocean.com/community/tutorials/linux-commands)
 
 ## Bonus
-* Get The Linux Command Line Free Book for free (Optional but recommended)
 
-[The Linux Command Line Book.pdf](https://github.com/user-attachments/files/29926209/The.Linux.Command.Line.Book.pdf)
+- [The Linux Command Line (PDF book)](https://github.com/user-attachments/files/29926209/The.Linux.Command.Line.Book.pdf) — optional but useful for deployment and container workflows.
